@@ -1,0 +1,105 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, #f8f9fa,#9adbc8);
+}
+
+.contenedor{
+    height: 615px;
+    width: 750px;
+    background: #93d85a;
+    margin: 10px auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #97979b;
+    align-items: center;
+}
+
+#puntaje{
+    width: 100px;
+    background: #81bbcc;
+    color: #001233;
+    padding: 10px;
+    position: absolute;
+    left: 600px;
+    box-shadow: 0px 4px 0px 0px;
+    border-radius: 3px;
+}
+
+#contenedorfrutas{
+    height: 400px;
+    background: #fff;
+    width: 650px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #8da1e2;
+    overflow: hidden;
+    align-items: center;
+}
+#instruccion{
+    height: 50px;
+    width: 450px;
+    background: #adb5bd;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px 0px 0px #e9ecef;
+    border-radius: 5px;
+    
+}
+
+#inicioreset:hover{
+    background-color: #9bdbf5;
+    color: black;
+    box-shadow: 0px 4px 0px 0px #6bceb5;
+}
+
+#inicioreset{
+    width: 100px;
+    padding: 10px;
+    background-color: #ece0b8;
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 4px 0px 0px #b6e07e;
+    position: relative;
+    transition: all 0.5s;
+}
+
+#gameover{
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(90deg,#e3eb7a,#d6b968);
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    display: none;
+
+}
+
+#vidas{
+    width: 80px;
+    padding: 10px;
+    position: absolute;
+    background: #abc4ff;
+    color: #001233;
+    box-shadow: 0px 4px 0px 0px;
+    border-radius: 3px;
+}
+
+#fruta{
+    display: none;
+    position: absolute;
+}
+
+.vida{
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
